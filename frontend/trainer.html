@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainer Profile | FitPlanHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .profile-container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .trainer-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .trainer-card h2 {
+            margin-bottom: 5px;
+        }
+
+        .trainer-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .follow-btn {
+            margin-top: 10px;
+            padding: 7px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #1e90ff;
+            color: #fff;
+        }
+
+        .follow-btn.unfollow {
+            background-color: #ff4d4d;
+        }
+
+        .plans-section h3 {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+
+        
+        <div class="trainer-card">
+            <h2 id="trainerName">Trainer Name</h2>
+            <p id="trainerEmail">trainer@email.com</p>
+
+            <button id="followBtn" class="follow-btn">
+                Follow Trainer
+            </button>
+        </div>
+
+        
+        <div class="plans-section">
+            <h3>Fitness Plans by Trainer</h3>
+
+            <div id="trainerPlans" class="plans-grid">
+                
+            </div>
+        </div>
+
+    </div>
+
+   
+     <script src="js/utils.js"></script>
+    <script src="js/trainer.js"></script>
+
+</body>
+</html>

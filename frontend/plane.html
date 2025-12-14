@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Plan | FitPlanHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background: linear-gradient(120deg, #1e3c72, #2a5298);
+            min-height: 100vh;
+        }
+
+        .plan-container {
+            width: 90%;
+            max-width: 850px;
+            margin: 50px auto;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(12px);
+            padding: 30px;
+            border-radius: 14px;
+            color: #fff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+            animation: fadeUp 0.6s ease;
+        }
+
+        .price {
+            font-weight: bold;
+            margin: 12px 0;
+        }
+
+        .subscribe-btn {
+            background: #28a745;
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .trainer-link {
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.9rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 25px;
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="plan-container">
+
+    <h2 id="planTitle"></h2>
+    <p class="trainer-name">
+        Trainer:
+        <span id="trainerName" class="trainer-link"></span>
+    </p>
+
+    <p class="price" id="planPrice"></p>
+
+    <div id="planContent"></div>
+
+    <button id="subscribeBtn" class="subscribe-btn" style="display:none;">
+        Subscribe to this Plan
+    </button>
+
+    <br>
+    <a href="feed.html" class="back-link">← Back to Feed</a>
+
+</div>
+
+<script src="js/utils.js"></script>
+<script src="js/plan.js"></script>
+
+</body>
+</html>

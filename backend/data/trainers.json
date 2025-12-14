@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1765689743947",
+    "name": "ashok rane",
+    "email": "ashok@gmail.com",
+    "password": "$2a$10$gBQQKa1mpI4PsiqPgPF4teY5Uqx2TAzhJRHZ1Y0SJRKCbChbgFiGG",
+    "role": "trainer"
+  },
+  {
+    "id": "1765698159979",
+    "name": "raju mukati",
+    "email": "abc1@gmail.com",
+    "password": "$2a$10$3pEwUByPfQo3c8PSEwhddept30KZSk785Y6ao.6FI43km5ZXZ5fgO"
+  },
+  {
+    "id": "1765710001002",
+    "name": "neha patel",
+    "email": "neha@gmail.com",
+    "password": "$2a$10$eJX8zT2QW3K7M9A0Y1P6VZ4C5R8yqN",
+    "role": "trainer"
+  },
+  {
+    "id": "1765710001003",
+    "name": "rohit singh",
+    "email": "rohit@gmail.com",
+    "password": "$2a$10$ZXCVBNMASDFGHJKLQWERTYUI",
+    "role": "trainer"
+  },
+  {
+    "id": "1765710001004",
+    "name": "amit kulkarni",
+    "email": "amit.k@gmail.com",
+    "password": "$2a$10$A9X7YQ8M2V4P0R6C5WZJ1eT",
+    "role": "trainer"
+  },
+  {
+    "id": "1765710001005",
+    "name": "kavita joshi",
+    "email": "kavita.j@gmail.com",
+    "password": "$2a$10$QWERTYUIOPLKJHGFDSAZXCVBN",
+    "role": "trainer"
+  },
+  {
+    "id": "1765710001006",
+    "name": "sandeep malhotra",
+    "email": "sandeep@gmail.com",
+    "password": "$2a$10$LxQeZrA3YpCkJ2K1wD9V5u6N8RZy9JXQqM7T3U0K1X",
+    "role": "trainer"
+  },
+  {
+    "id": "1765710001007",
+    "name": "priya deshmukh",
+    "email": "priya@gmail.com",
+    "password": "$2a$10$9yOaGz8sT4iJX3JtqV3P5eC9yqGd5QwY1R0e8YxkR2Q3P9XW",
+    "role": "trainer"
+  }
+]

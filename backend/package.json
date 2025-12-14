@@ -1,0 +1,17 @@
+{
+  "name": "fitplanhub-backend",
+  "version": "1.0.0",
+  "description": "Backend for FitPlanHub - Trainers & Users Fitness Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pankaj Saratkar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

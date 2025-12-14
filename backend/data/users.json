@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1765689483191",
+    "name": "Pankaj Saratkar",
+    "email": "pankajsaratkar33@gmail.com",
+    "password": "$2a$10$gW8pudTxx7bBlooDztwa.utenlcdiDVnmWBCCGKo2.91VXog5aiWa",
+    "role": "user"
+  },
+  {
+    "id": "1765689743947",
+    "name": "ashok rane",
+    "email": "ashok@gmail.com",
+    "password": "$2a$10$gBQQKa1mpI4PsiqPgPF4teY5Uqx2TAzhJRHZ1Y0SJRKCbChbgFiGG",
+    "role": "trainer"
+  },
+  {
+    "id": "1765704475999",
+    "name": "sharda",
+    "email": "xyz@gmail.com",
+    "password": "$2a$10$HUW5Yz8RYIG/OdsdrHW3SOEVRZcImlM9siC39d.03i/BJCOPbv0O6"
+  }
+]

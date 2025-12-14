@@ -1,0 +1,42 @@
+[
+  {
+    "id": "3001",
+    "trainerId": "1765689743947",
+    "title": "Fat Loss Beginner Plan",
+    "description": "30-day beginner friendly fat loss workout and diet plan.",
+    "price": 999,
+    "duration": 30
+  },
+  {
+    "id": "3002",
+    "trainerId": "1765689743947",
+    "title": "Muscle Gain Pro Plan",
+    "description": "Advanced muscle building program with weekly split.",
+    "price": 1499,
+    "duration": 45
+  },
+  {
+    "id": "3003",
+    "trainerId": "1765689743947",
+    "title": "Yoga & Flexibility Plan",
+    "description": "Improve flexibility and mental health with yoga.",
+    "price": 799,
+    "duration": 21
+  },
+  {
+    "id": "1765701798319",
+    "trainerId": "1765698159979",
+    "title": "Beginner Full Body Workout",
+    "description": "A simple full-body workout plan designed for beginners to build strength and improve flexibility.",
+    "price": "999",
+    "duration": "30"
+  },
+  {
+    "id": "1765702177383",
+    "trainerId": "1765698159979",
+    "title": "Weight Loss Cardio Plan",
+    "description": "High-energy cardio-focused fitness plan to burn calories and improve heart health",
+    "price": "1499",
+    "duration": "45"
+  }
+]
